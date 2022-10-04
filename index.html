@@ -1,0 +1,9 @@
+<body>
+    <label>info</label>
+    <label id="data"></label>
+    <script>
+         const memory = navigator.deviceMemory
+        console.log(`This device has at least ${memory}GiB of RAM.`)
+        document.getElementById('data').innerHTML = `This device has at least ${memory}GiB of RAM.`;
+    </script>
+</body>
